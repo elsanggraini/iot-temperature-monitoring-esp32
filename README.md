@@ -1,20 +1,18 @@
-````markdown
 # 🌡️ ESP32 Realtime Temperature & Humidity Monitoring Dashboard
 
 A realtime IoT monitoring system using ESP32 and DHT11 sensor with interactive web dashboard visualization.
 
----
-
-# 📌 Project Description
+## 📌 Project Description
 
 This project is an Internet of Things (IoT) based temperature and humidity monitoring system using ESP32 and DHT11 sensor. The system is capable of reading environmental temperature and humidity data in realtime and displaying the information through a modern web dashboard interface.
 
 The dashboard includes:
-- 🌙 Dark mode UI
-- 📊 Realtime temperature chart
-- 📈 Interactive progress bar
-- 🔄 Live update without page refresh
-- 📡 ESP32 local web server
+
+* 🌙 Dark mode UI
+* 📊 Realtime temperature chart
+* 📈 Interactive progress bar
+* 🔄 Live update without page refresh
+* 📡 ESP32 local web server
 
 This project was developed using Arduino IDE, ESP32, HTML, CSS, JavaScript, and Chart.js.
 
@@ -22,42 +20,42 @@ This project was developed using Arduino IDE, ESP32, HTML, CSS, JavaScript, and 
 
 # 🛠️ Hardware Components
 
-- ESP32 Development Board
-- DHT11 Temperature & Humidity Sensor
-- Jumper Wires
-- USB Data Cable
-- Laptop / PC
+* ESP32 Development Board
+* DHT11 Temperature & Humidity Sensor
+* Jumper Wires
+* USB Data Cable
+* Laptop / PC
 
 ---
 
 # 💻 Software Requirements
 
-- Arduino IDE
-- ESP32 Board Package
-- DHT Sensor Library
-- CP2102 Driver
-- Web Browser
+* Arduino IDE
+* ESP32 Board Package
+* DHT Sensor Library
+* CP2102 Driver
+* Web Browser
 
 ---
 
 # 🔌 Wiring Configuration
 
 | DHT11 Pin | ESP32 Pin |
-|-----------|------------|
-| VCC       | 3.3V       |
-| OUT/Data  | GPIO4      |
-| GND       | GND        |
+| --------- | --------- |
+| VCC       | 3.3V      |
+| OUT/Data  | GPIO4     |
+| GND       | GND       |
 
 ---
 
 # 🚀 Features
 
-✅ Realtime temperature monitoring  
-✅ Realtime humidity monitoring  
-✅ Modern dark mode dashboard  
-✅ Live chart visualization  
-✅ Responsive web interface  
-✅ ESP32 web server based monitoring  
+✅ Realtime temperature monitoring
+✅ Realtime humidity monitoring
+✅ Modern dark mode dashboard
+✅ Live chart visualization
+✅ Responsive web interface
+✅ ESP32 web server based monitoring
 
 ---
 
@@ -74,16 +72,6 @@ This project was developed using Arduino IDE, ESP32, HTML, CSS, JavaScript, and 
 
 ---
 
-# 📡 Example Output
-
-```bash
-WiFi Connected!
-IP Address: 192.168.1.10
-Web server running...
-````
-
----
-
 # 📚 Technologies Used
 
 * ESP32
@@ -97,7 +85,7 @@ Web server running...
 
 ---
 
-# ⭐ Future Development
+# ⭐ Notes
 
 This project can still be developed further by adding:
 
@@ -106,6 +94,3 @@ This project can still be developed further by adding:
 * Telegram notification
 * mobile app support
 * online monitoring system
-
-```
-```
